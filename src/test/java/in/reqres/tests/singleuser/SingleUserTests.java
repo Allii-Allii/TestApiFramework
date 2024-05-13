@@ -1,7 +1,7 @@
-package in.reqres.test.singleuser;
+package in.reqres.tests.singleuser;
 
 import in.reqres.model.response.singleuser.UserResponse;
-import in.reqres.test.ApiTestBase;
+import in.reqres.tests.ApiTestBase;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;

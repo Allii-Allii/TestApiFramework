@@ -41,6 +41,8 @@
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                     </systemPropertyVariables>
                 </configuration>
+
+
             </plugin>
         </plugins>
     </build>
@@ -73,13 +75,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- AspectJ (required for Allure) -->
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>1.9.22</version>
-            <scope>test</scope>
-        </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>

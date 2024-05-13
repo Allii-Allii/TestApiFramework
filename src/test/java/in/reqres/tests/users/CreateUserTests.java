@@ -1,8 +1,8 @@
-package in.reqres.test.users;
+package in.reqres.tests.users;
 
 import in.reqres.model.request.create.CreateUserRequest;
 import in.reqres.model.response.create.UserCreateResponse;
-import in.reqres.test.ApiTestBase;
+import in.reqres.tests.ApiTestBase;
 import in.reqres.utils.ApiUtils;
 import org.testng.annotations.Test;
 

@@ -1,0 +1,7 @@
+<suite name="Rest Assured Test Framework">
+    <test name = "All">
+        <packages>
+            <package name = "in.reqres.tests.*"/>
+        </packages>
+    </test>
+</suite>

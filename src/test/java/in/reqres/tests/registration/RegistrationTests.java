@@ -1,7 +1,7 @@
-package in.reqres.test.registration;
+package in.reqres.tests.registration;
 
 import in.reqres.model.request.singleuser.RegistrationRequest;
-import in.reqres.test.ApiTestBase;
+import in.reqres.tests.ApiTestBase;
 import in.reqres.utils.ApiUtils;
 import org.testng.annotations.Test;
 
